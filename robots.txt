@@ -1,0 +1,32 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /Forms/
+Disallow: /Pictures/
+Disallow: /Misc/Stats/
+Disallow: /Sisaista/
+Disallow: /Internal/
+Disallow: /Opinnot/Tik*/
+Disallow: /Studies/Tik*/
+Disallow: /Studier/Tik*/
+Disallow: /Research/MatrixPro/evaluation.shtml
+Disallow: /Research/MatrixPro/download.shtml
+Disallow: /Research/TRAKLA2/evaluation.shtml
+Disallow: /Research/TRAKLA2/download.shtml
+
+Disallow: /Ajankohtaista/
+Disallow: /Current/
+Disallow: /Yhteystiedot/
+Disallow: /Contact/
+Disallow: /Yleista/
+Disallow: /General/
+Disallow: /Tutkimus/
+Disallow: /Research/
+Disallow: /Opinnot/
+Disallow: /Studies/
+Disallow: /Studier/
+Disallow: /Misc/
+
+User-agent: ia_archiver
+Disallow: /Opinnot/*/
+Disallow: /Studies/*/
+Disallow: /Studier/*/
