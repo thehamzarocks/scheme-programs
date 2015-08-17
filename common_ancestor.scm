@@ -13,7 +13,6 @@ Question: Consider male members of a family with father-son relationship only, w
 (cadr family))
 (define (get-right family)
 (caddr family))
-)
 (define (is-empty-family? family)
 (null? family))
 (define make-empty '())
