@@ -41,5 +41,3 @@ Question: Consider male members of a family with father-son relationship only, w
 (cond ((null? family) '())
 ((no-son? family) (cons (get-father family) '()))
 (else (append  (allleaves (get-left family)) (allleaves (get-right family))))))
-
-(define 
