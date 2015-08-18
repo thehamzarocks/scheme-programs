@@ -1,7 +1,4 @@
-(define (reverse list)
-(cond ((null? list) '())      
-      (else (cons (reverse (cdr list)) (car list) )
-)
-)
-)
-
+(define (reverse x)
+           (if(null? x)
+              '()
+              (append (reverse (cdr x)) (list (car x)))))
